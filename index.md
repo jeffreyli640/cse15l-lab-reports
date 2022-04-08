@@ -21,4 +21,4 @@ Sytem.out.println("Hello World");
 
 Some random changes
 
-[Lab Report 1](https://github.com/jeffreyli640/cse15l-lab-reports/blob/main/lab-report-1-week-2.md?plain=1)
+[Lab Report 1](lab-report-1-week-2.html)
