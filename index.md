@@ -1,6 +1,6 @@
 # Hello World!
 ## CSE15L SP22
-[Course Website] (https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/home?authuser=0)
+[Course Website](https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/home?authuser=0)
 ***
 **Lab 2**
 > Author:
