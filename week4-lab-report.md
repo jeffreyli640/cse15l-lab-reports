@@ -1,6 +1,7 @@
 # Debugging Tutorial
 > Author: Jeffrey Li \
 This Page showcases the processes of debugging MarkdownParse.java
+___
 ## Fix #1
 **Changes to MarkdownParse.java**
 ![](/LabReport2/bugfix1.png)
