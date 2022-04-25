@@ -23,8 +23,19 @@ ___
 [Test File](/LabReport2/testfiles/test-file3.md) \
 **Failure Output** \
 `[someRandomImage.png]`
-1. The was that the code did check for the '!' character infront of the implemented links.
+1. The bug was that the code did check for the '!' character infront of the implemented links.
 2. The symptom was that the program could not distinguish between image links and file/web links.
 3. The bug was fixed bying adding lines of code that checks if there is a '!' character infront of the link, and if there is, the program would ignore that link.
 ___
-
+## Fix #3
+**Changes to MarkdownParse.java**
+![](/LabReport2/bugfix3.png)
+**Failure-induing Input** \
+[Test File](/LabReport2//testfiles/test-file4.md) \
+**Failure Output** \
+```
+[                                              something.html]
+```
+1. The bug was that the code could not reconigze space characters within the link.
+2. The symptom resulted from this bug was that the ouput would contain long sequences of spaces next to the link if the input conatained such sequence of white spaces.
+3. The bug was fixed by adding a line of code that replaced all the white spaces in the link with empty chars, thereby elimnating any space char in the link.
