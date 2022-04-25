@@ -1,6 +1,6 @@
 # Debugging Tutorial
 > Author: Jeffrey Li \
-This Page showcases the processes of debugging MarkdownParse.java
+This Page showcases the processes of debugging MarkdownParse.java 
 ___
 ## Fix #1
 **Changes to MarkdownParse.java**
@@ -26,7 +26,7 @@ ___
 `[someRandomImage.png]`
 1. The bug was that the code did check for the '!' character infront of the implemented links.
 2. The symptom was that the program could not distinguish between image links and file/web links.
-3. The bug was fixed bying adding lines of code that checks if there is a '!' character infront of the link, and if there is, the program would ignore that link.
+3. The bug was fixed bying adding lines of code that checks if there is a '!' character infront of the link, and if there is, the program would ignore that link. 
 ___
 ## Fix #3
 **Changes to MarkdownParse.java**
