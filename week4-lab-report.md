@@ -3,8 +3,8 @@
 This Page showcases the processes of debugging MarkdownParse.java 
 ___
 ## Fix #1
-**Changes to MarkdownParse.java**
-![](/LabReport2/bugfix1.png)
+**Changes to MarkdownParse.java** \
+![](/LabReport2/bugfix1.png) \
 **Failure-inducing Input** \
 [Test File](/LabReport2/testfiles/test-file2.md) \
 **Failure Output** \
@@ -18,8 +18,8 @@ ___
 3. The bug was fixed by adding lines of code that checked for the normality of each data before updating the ArrayList. 
 ___
 ## Fix #2
-**Changes to MarkdownParse.java**
-![](/LabReport2/bugfix2.png)
+**Changes to MarkdownParse.java** \
+![](/LabReport2/bugfix2.png) \
 **Failure-inducing Input** \
 [Test File](/LabReport2/testfiles/test-file3.md) \
 **Failure Output** \
@@ -29,11 +29,11 @@ ___
 3. The bug was fixed bying adding lines of code that checks if there is a '!' character infront of the link, and if there is, the program would ignore that link. 
 ___
 ## Fix #3
-**Changes to MarkdownParse.java**
-![](/LabReport2/bugfix3.png)
+**Changes to MarkdownParse.java** \
+![](/LabReport2/bugfix3.png) \
 **Failure-induing Input** \
 [Test File](/LabReport2//testfiles/test-file4.md) \
-**Failure Output** \
+**Failure Output** 
 ```
 [                                              something.html]
 ```
