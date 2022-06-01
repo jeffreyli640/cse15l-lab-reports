@@ -7,7 +7,7 @@ ___
 [Review Version](https://github.com/khiemddang/markdown-parser)
 ## Snippet 1
 ### Expected Output
-`url.com, google.com, google.com, ucsd.edu`
+`[url.com, google.com, google.com, ucsd.edu]`
 ### Implementation of Test
 ![](LabReport4/s1.png)
 ### Output in My Implementation
@@ -19,7 +19,7 @@ ___
 **The primary problem was that the code would reuslt in stack overflow error due to not having a correct break and return statement which makes the program run in an unending while loop.**
 ## Snippet 2
 ### Expected Output
-`b.com, a.com(()), example.com`
+`[b.com, a.com(()), example.com]`
 ### Implementation of Test
 ![](LabReport4/s2.png)
 ### Output in My Implementation
@@ -30,7 +30,7 @@ ___
 **Adding a line of code that detects multiple parens and brackets and then choosing the outer most one should be able to fix the output.**
 ## Snippet 3
 ### Expected Output
-`https://www.twitter.com, https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule, github.com, https://cse.ucsd.edu/`
+`[https://www.twitter.com, https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule, github.com, https://cse.ucsd.edu/]`
 ### Implementation of Test
 ![](LabReport4/s3.png)
 ### Output in My Implementation
