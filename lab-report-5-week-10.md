@@ -18,8 +18,20 @@ ___
 ![](LabReport5/489-exp-output.png)
 ### Bug Fix
 **The problem in my implementation of MarkdownParse is that the code doesn't check whether or not the text within the paras is an actual link or not.** \
-**In order to fix this problem, a new function has to be added to the code either as a seperate method or included in getLinks() that checks if the potentail link is valid.**
+**In order to fix this problem, a new function has to be added to the code either as a seperate method or included in getLinks() that checks if the potentail link is valid.** \
 ![](LabReport5/489-fix.png) \
 **Something that is similiar to the hightlighted potion of the code needs to added to the getLinks() in my implementation to fix this problem.**
 ## Test-file-577
-
+**For 577.md, my implementation is correct.**
+### Actual Output from My Implementation
+![](LabReport5/577-output.png)
+### Actual Output from Provided Implementation
+![](LabReport5/577-pro-output.png)
+### Expected Output
+**Since the link is an link for an image, therefore no link should be returned.** \
+![](LabReport5/577-exp-output.png)
+### Bug Fix
+**The bug that is causing this output in the provided implementation is that it does not check for whether or not the link is for an image or for an webpagee.** \
+**In order to fix this bug, a new function needs to be added checks for possible `!` chars in front the `[]` chars of potential links.** \
+![](LabReport5/577-fix.png) \
+**This if statement in my code checks for the `!` char, something similiar could be added to the provided implementation.**
