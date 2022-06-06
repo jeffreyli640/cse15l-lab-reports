@@ -36,4 +36,4 @@ ___
 ![](LabReport5/577-fix.png) \
 **This if statement in my code checks for the `!` char, something similiar could be added to the provided implementation.** \
 ![](LabReport5/577-fix-1.png) \
-**The changeds could be added to the highlighted portion of the provided implementaion.**
+**The changes could be added to the highlighted portion of the provided implementaion.**
