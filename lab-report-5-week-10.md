@@ -34,4 +34,6 @@ ___
 **The bug that is causing this output in the provided implementation is that it does not check for whether or not the link is for an image or for an webpagee.** \
 **In order to fix this bug, a new function needs to be added checks for possible `!` chars in front the `[]` chars of potential links.** \
 ![](LabReport5/577-fix.png) \
-**This if statement in my code checks for the `!` char, something similiar could be added to the provided implementation.**
+**This if statement in my code checks for the `!` char, something similiar could be added to the provided implementation.** \
+![](LabReport5/577-fix-1.png) \
+**The changeds could be added to the highlighted portion of the provided implementaion.**
